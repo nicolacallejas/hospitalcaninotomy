@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="efectos/efectos3.css">
+</head>
+<body>
+    <header>
+    </header>
+    <h2>
+      <img class="imagenlogo" src="imagenes/logo.jpeg" alt="">
+      Agenda Servicios
+    </h2>
+
+
+<form action="datos.js" method="post"><br>
+
+    <a href="index.html"><span class="primero"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+        fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+    </svg></span>Inicio<br><br></a>
+    <br>
+    
+    <div>
+    <p>Nombre Mascota<br>
+      <input type="text" size="30" minlength="3"
+       maxlength="40" required name="nombre"
+       id="nombre"> 
+    </p>
+
+    <p> Nombre y Apellido Dueño<br>
+        <input type="text" size="30" minlength="3"
+         maxlength="120" required name="Apellido"
+         id="apellido"> 
+      </p>
+
+      <p>Correo<br>
+        <input type="text" size="30" minlength="3"
+         maxlength="70" required name="Correo"
+         id="Correo"> 
+      </p>
+      <p>Celular<br>
+        <input type="text" size="30" minlength="3"
+         maxlength="10" required name="Celular"
+         id="Celular"> 
+      </p>
+      <p>Direccion<br>
+        <input type="text" size="30" minlength="3"
+         maxlength="20" required name="Direccion"
+         id="Direccion"> 
+      </p>
+      <p>Servicios<br>
+        
+        <select name="citas" >
+            <option value="peluqueria" >peluqueria</option>
+            <option value="Baño medicado o Antipulgas" >Baño medicado o Antipulgas</option>
+            <option value="Decoracion Y Perfumes" >Decoracion Y Perfumes</option>
+            <option value="Limpieza de Dientes" >Limpieza de Dientes</option>
+            <option value="Limpieza de Dientes" >Guarderia</option>
+        </select>
+      </p>
+     
+      <p>Tipo de documento </p>
+      <input type="radio" name="ver_tv"
+      value="cedula">cedula <br>
+      <input type="radio" name="ver_tv"
+      value="tarjetadeidentidad">Tarjeta de identidad <br>
+      <br>
+      <p>Numero Documento<br>
+        <input type="text" size="30" minlength="3"
+         maxlength="10" required name="confirmar"
+         id="confirmar"> 
+      </p>
+      <p>escriba sus comentarios</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <p></p>
+   <BUtton> Enviar</BUtton>
+   <BUtton>Eliminar</BUtton>
+    </div>
+    
+</form>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
