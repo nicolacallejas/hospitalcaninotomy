@@ -1,0 +1,428 @@
+body{
+    background-image: linear-gradient(#1455D8,#7C8699 ,#87CEEB);  
+
+    /*pantalla grande computador */
+}
+
+header > h1 {
+    color: rgb(241, 241, 243);
+    text-align: center;
+}
+
+header >  img{
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background:#0B93F6;
+    position: relative;
+}
+
+nav > ul li {
+    display: table-cell;
+}
+/*sub menu */
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul li a {
+    color: rgb(250, 252, 250);
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    /*Generador CSS3*/
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+    background:  rgb(84, 60, 155);
+}
+
+nav > ul > li > a span {
+    background: #05e649ee;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;  
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;     
+}
+nav > ul > li > a > span .http{
+    display: block;
+    line-height: 60px;
+}
+nav > ul > li > a:hover > span {
+    top: 0;
+}
+/*colores panel de control */
+nav ul li a .primero{
+    background: #6bd765;
+}
+nav ul li a .segundo{
+    background: #c7f270ee;
+}
+nav ul li a .tercero{
+    background: #edad67;
+}
+nav ul li a .cuarto{
+    background: #f64fc7ee;
+}
+nav ul li a .quinto{
+    background: #f36363ee;
+}
+section{
+    width: 1000px;
+    height: 400px;
+    background-color:#4109a9;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    }
+
+ div{
+    background-color: #4C76BC ;
+    width: 350px;
+    height: 90px;
+    margin-bottom: 15px;
+    padding:5px;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+    .n1{
+        position: absolute;
+        left: 250px;
+        bottom: 100px;
+        color: aliceblue;
+    }
+    .n2{
+        color: aliceblue;
+        position: absolute;
+        left: 750px;
+        bottom: 100px;
+    }
+    .n3{
+        color: aliceblue;
+        position: absolute;
+        left: 250px;
+        bottom: 270px;
+    }
+    .n4{
+        color: aliceblue;
+        position: absolute;
+        left: 750px;
+        bottom: 270px;
+        }
+h2{
+    color: rgb(255, 250, 240);
+    text-align: center;
+}
+
+h3{
+    
+    background-color: rgb(90, 35, 243);
+    padding: 5px;
+    display: block;
+    color: white;
+    text-align: center;       
+ }
+ .container-boton{
+  
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    transition: ease 0,3s;
+    animation: efecto 1.2s infinite;
+    width: 50px;
+    height: 50px;
+    
+ }
+.piepagina{
+    background-image: linear-gradient(#1455D8,#7C8699 ,#87CEEB);  
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 50px;    
+}
+.piepagina h3{
+    text-align: center;
+    color: honeydew;
+}
+.piepagina a {
+    color: rgb(238, 12, 12);
+}
+
+.piepagina img{
+    position: absolute;
+    margin: auto;
+    width: 80px;
+    height: 100px;
+}
+
+/* pantalla para tablet*/
+@media all and (min-width: 641px) and (max-width:1023px){
+    header > h1 {
+        color: rgb(230, 230, 235);
+        text-align: center;
+    }
+
+    header >  img{
+        background-color: darkgreen;
+        border: 1px solid white;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 25px;
+        transition: ease 0,3s;
+        animation: efecto 1.2s infinite;
+        width: 5px;
+        
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    nav {
+        margin: 50px auto;
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav > ul {
+        display: table;
+        overflow: hidden;
+        width: 50%;
+        background:#0B93F6;
+        position: relative;
+    }
+    
+    nav > ul li {
+        display: table-cell;
+    }
+    /*sub menu */
+    nav > ul > li:hover > ul{
+        display: block;
+    }
+    
+    
+    nav > ul > li > ul {
+        display: none;
+    }
+    
+    nav > ul li a {
+        color: rgb(250, 252, 250);
+        display: block;
+        line-height: 20px;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        /*Generador CSS3*/
+        text-decoration: none;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+    
+    nav > ul > li > ul > li a:hover {
+        background:  rgb(24, 23, 23);
+    }
+    
+    nav > ul > li > a span {
+        background: #05e649ee;
+        display: block;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: -55px;  
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;     
+    }
+    nav > ul > li > a > span .http{
+        display: block;
+        line-height: 60px;
+    }
+    nav > ul > li > a:hover > span {
+        top: 0;
+    }
+    /*colores panel de control */
+    nav ul li a .primero{
+    background: #6bd765;
+    }
+    nav ul li a .segundo{
+        background:#c7f270ee ;
+    }
+    nav ul li a .tercero{
+        background: #edad67;
+    }
+    nav ul li a .cuarto{
+        background:#f64fc7ee;
+    }
+    nav ul li a .quinto{
+        background:#f36363ee;
+    }
+
+/*hooooo erreglrar */
+}
+section{
+    width: 1000px;
+    height: 400px;
+    background-color:#4109a9;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    }
+
+ div{
+    background-color: #4C76BC ;
+    width: 350px;
+    height: 90px;
+    margin-bottom: 15px;
+    padding:5px;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+    .n1{
+        position: absolute;
+        left: 250px;
+        bottom: 100px;
+        color: aliceblue;
+    }
+    .n2{
+        color: aliceblue;
+        position: absolute;
+        left: 750px;
+        bottom: 100px;
+    }
+    .n3{
+        color: aliceblue;
+        position: absolute;
+        left: 250px;
+        bottom: 270px;
+    }
+    .n4{
+        color: aliceblue;
+        position: absolute;
+        left: 750px;
+        bottom: 270px;
+        }
+h2{
+    color: rgb(255, 250, 240);
+    text-align: center;
+}
+
+h3{
+    
+    background-color: rgb(90, 35, 243);
+    padding: 5px;
+    display: block;
+    color: white;
+    text-align: center;       
+ }
+ .container-boton{
+  
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    transition: ease 0,3s;
+    animation: efecto 1.2s infinite;
+    width: 50px;
+    height: 50px;
+    
+ }
+.piepagina{
+    background-image: linear-gradient(#1455D8,#7C8699 ,#87CEEB);  
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 50px;    
+}
+.piepagina h3{
+    text-align: center;
+    color: honeydew;
+}
+.piepagina a {
+    color: rgb(238, 12, 12);
+}
+
+.piepagina img{
+    position: absolute;
+    margin: auto;
+    width: 80px;
+    height: 100px;
+}
+
+}
+
